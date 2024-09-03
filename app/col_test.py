@@ -1,8 +1,8 @@
 import pandas as pd
 import re
 
-path = 'output/output.csv'
-df = pd.read_csv('output/output.csv')
+path = './output/output.csv'
+df = pd.read_csv('./output/output.csv')
 
 
 def test_cols(df):
