@@ -1,5 +1,8 @@
 import pandas as pd
 
-var1 = 'estudante'
+path = 'input/data_1.csv'
 
-print(var1)
+df = pd.read_csv(path)
+df.to_csv('output/output.csv', index=False)
+
+print(df)
